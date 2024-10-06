@@ -53,7 +53,7 @@ export default function BudgetAnalysis() {
   }
 
   return (
-    <div className="flex flex-row justify-center gap-4">
+    <div className="flex flex-col lg:flex-row lg:justify-center gap-4 p-4">
       <div>
         <CategoryBudgets
           categoryBudgets={budgetAnalysisQuery.data.analysis.category_budgets}
